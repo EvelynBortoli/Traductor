@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRADUCTOR BY EVELYN BORTOLI</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <!--Esta línea a continuación sirve para que los caracteres
+         como la ñ o tildes se visualicen correctamente-->
+    <meta charset="UTF-8">
+</head>
+
+<script src=js/main.js></script>
+
+<body>
+    <h1>Welcome to All Out <b>TRANSLATOR</b> </h1>
+    <br>
+    <p>
+        <form name="idiom" action="#">
+            <div="TexAr"> <textarea name="textToTranslate" id="tToT" placeholder="Enter yout text here..." rows="20" cols="50"></textarea>
+                </div>
+                <br>
+                <div="choices">
+                    <h2>Choose Language:</h2>
+                    <select name="I" id="lenguage">
+                    <option value="BG">Bulgarian</option>
+                    <option value="CS">Check</option>
+                    <option value="DA">Danish</option>
+                    <option value="DE">German</option>
+                    <option value="EL">Greek</option>
+                    <option value="Es">Spanish</option>
+                    <option value="ET">Estonian</option>
+                    <option value="FI">Finnish</option>
+                    <option value="FR">French</option>
+                    <option value="HU">Hungarian</option>
+                    <option value="IT">Italian</option>
+                    <option value="JA">Japanese</option>
+                    <option value="LT">Lithuanian</option>
+                    <option value="LV">Latvian</option>
+                    <option value="NL">Dutch</option>
+                    <option value="PL">Polish</option>
+                    <option value="PT">Portuguese</option>
+                    <option value="RO">Romanian</option>
+                    <option value="RU">Russian</option>
+                    <option value="SK">Slovak</option>
+                    <option value="SL">Slovenian</option>
+                    <option value="SV">Swedish</option>
+                    <option value="ZH">Chinese</option>
+                </select><br/><br/>
+                    <input type="button" name="pulsar" onclick="traslation()" value="translation" />
+                    </div>
+        </form>
+        <br>
+        <br>
+        <div="traduccion" id="traduccion">Translation:
+            </div>
+
+
+</body>
+
+</html>
